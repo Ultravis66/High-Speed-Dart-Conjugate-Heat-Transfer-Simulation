@@ -1,4 +1,4 @@
-# 🚀 High-Speed Dart: Conjugate Heat Transfer Simulation
+# High-Speed Dart: Conjugate Heat Transfer Simulation
 **Inspired by real-world subcaliber designs**
 
 This project models the **transient thermal response** of a multi-material, high-speed dart as it decelerates from **Mach 4 to 3.5 over 2 seconds** in standard atmosphere. Using **conjugate heat transfer (CHT)** and a custom **quasi-unsteady macro**, it captures aerodynamic heating and internal conduction through layered solids: tungsten, epoxy, aluminum, and steel.
