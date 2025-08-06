@@ -70,13 +70,12 @@ This plot shows the max **temperature evolution** inside the **epoxy bonding lay
 
 ## 🔥 Full Temperature Field Visualization (With and Without Mesh)
 
-These visualizations show the **temperature field** across all solid materials at a representative moment during the simulation.
+These visualizations show the **temperature field** across solid materials at 2 seconds flight time away from the stagnation.
 
 ### With Mesh Overlay
 The image below includes the **solid region mesh**, helping illustrate:
 - How conduction pathways evolve from the **steel tip inward**
 - Layered heat transfer behavior through **aluminum**, **epoxy**, and into the **tungsten core**
-- Mesh resolution and cell distribution in critical thermal gradient regions
 
 ![Temps](Temps.png)
 
@@ -84,7 +83,6 @@ The image below includes the **solid region mesh**, helping illustrate:
 The same temperature field is shown below **without mesh lines** for a clearer, presentation-quality view of thermal distribution. This version highlights:
 - Temperature gradient smoothness
 - Thermal interfaces between materials
-- Direction of heat flow and dominant conduction regions
 
 ![Temps2](Temps2.png)
 ---
@@ -98,7 +96,7 @@ This video visualizes the **conjugate heat transfer behavior** of the dart geome
 - Gradual **conduction into aluminum, epoxy, and tungsten**
 - Layer-by-layer heat propagation through the solid core
 
-[🎬 Watch temp.mp4](Temp.mp4)
+[🎬 Watch temp.mp4](Tempg.gif)
 
 ---
 
