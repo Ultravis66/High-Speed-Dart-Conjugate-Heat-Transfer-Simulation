@@ -15,6 +15,25 @@ This project models the **transient thermal response** of a multi-material, high
 
 ---
 
+## 📐 Full Geometry and Material Layout
+
+### Full Round Geometry
+The image below shows the entire geometry of the high-speed dart, including the **fins, sabot interface, and nose cone**. This model was created using open-source references and CAD estimation.
+
+![Full Dart Geometry](HighSpeed%20DartFullGeometry.png)
+
+### Material Cross-Section
+A centerline slice through the nose and body reveals the internal **material layering**:
+- **Steel tip**
+- **Aluminum shielding**
+- **Epoxy bonding layer**
+- **Tungsten core**
+
+The nose cone geometry was not available in the source CAD and was constructed manually based on reasonable assumptions and public domain design characteristics.
+
+![Material Layout](Materials.png)
+
+
 ## 🧪 Simulation Method
 
 ### Quasi-Unsteady CHT Modeling
