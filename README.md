@@ -56,9 +56,7 @@ while (currentTime < endTime) {
 
 To validate the solver accuracy, a simple **1D conduction case** was extracted at a depth of **1 mm** into the steel tip. This was compared against the analytical solution for semi-infinite conduction using the **error function (erf)** solution:
 
-\[
-T(x, t) = T_\infty + (T_s - T_\infty) \cdot \text{erf} \left( \frac{x}{2\sqrt{\alpha t}} \right)
-\]
+(ErfEq.png)
 
 Where:
 - \( x = 1 \text{ mm} \)  
