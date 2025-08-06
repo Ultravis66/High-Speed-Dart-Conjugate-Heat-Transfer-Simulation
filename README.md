@@ -111,7 +111,7 @@ This video visualizes the **conjugate heat transfer behavior** of the dart geome
 - Gradual **conduction into aluminum, epoxy, and tungsten**
 - Layer-by-layer heat propagation through the solid core
 
-[🎬 Watch temp.mp4](temp.mp4)
+[🎬 Watch temp.mp4](Temp.mp4)
 
 ---
 
