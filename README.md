@@ -63,12 +63,7 @@ The plot below shows excellent agreement between the numerical simulation and th
 ![1Dheat transfer](1Dheat%20transfer.png)
 ## 🌡️ Epoxy Layer Temperature Over Time
 
-This plot shows the **temperature evolution** inside the **epoxy bonding layer** over the full 2-second simulation window. The data was extracted from a probe located near the mid-thickness of the epoxy region, at the nose-body interface between the steel tip and the aluminum outer shell.
-
-This temperature trace highlights:
-- Rapid heating in the first 0.2–0.4 seconds due to sharp temperature gradients
-- Gradual thermal response lagging behind steel and aluminum due to lower thermal conductivity
-- Long tail response as energy conducts inward toward the tungsten core
+This plot shows the max **temperature evolution** inside the **epoxy bonding layer** over the full 2-second simulation window. Epoxy starts to degrade rapidly beyond 475°K
 
 ![Epoxy_Temp](Epoxy_Temp.png)
 
