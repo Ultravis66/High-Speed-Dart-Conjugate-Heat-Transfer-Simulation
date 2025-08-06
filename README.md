@@ -58,12 +58,6 @@ To validate the solver accuracy, a simple **1D conduction case** was extracted a
 
 ![Analytical erf Equation](ErfEq.png)
 
-Where:
-- \( x = 1 \text{ mm} \)  
-- \( \alpha \) = thermal diffusivity of steel  
-- \( T_s \) = surface temperature  
-- \( T_\infty \) = initial steel temperature
-
 The plot below shows excellent agreement between the numerical simulation and the analytical curve:
 
 ![1Dheat transfer](1Dheat%20transfer.png)
