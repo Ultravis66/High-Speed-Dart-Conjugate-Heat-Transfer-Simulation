@@ -79,12 +79,15 @@ To accurately simulate heating from Mach 4 to Mach 3.5, all materials were assig
 - Cp rises from ~450 to ~650 J/kg·K  
 - k decreases slightly, from ~50 to ~25 W/m·K at high temps  
 | Extended up to **1200°C** to capture steel tip behavior under high heat flux |
+
 | **Aluminum** | Cp increases significantly with temperature  
 - Cp ~900 to 1100 J/kg·K  
 - k decreases from ~230 to ~150 W/m·K | Valid up to **1000°C**; above that aluminum may soften |
+
 | **Tungsten** | Cp increases gradually  
 - Cp ~130 to 150 J/kg·K  
 - k slightly decreases (~170 to 140 W/m·K) | Highly stable under extreme temperatures |
+
 | **Epoxy** | Cp increases, k remains low  
 - Cp ~1100 to 1500 J/kg·K  
 - k remains < 0.3 W/m·K | Epoxy thermal behavior modeled only up to ~200°C to stay below decomposition threshold |
