@@ -102,9 +102,16 @@ The same temperature field is shown below **without mesh lines** for a clearer, 
 ![Temps2](Temps2.png)
 ---
 
-## 📽️ Coming Soon
-- Video visualization of **temperature evolution** during heating  
-- Optional: animation of **pressure field and shock behavior** as Mach decays
+## 📽️ Temperature Evolution (2-Second Transient)
+
+This video visualizes the **conjugate heat transfer behavior** of the dart geometry over a full **2-second flight window**, during which the Mach number decays from 4.0 to 3.5. The animation shows:
+
+- Rapid **heating of the steel tip**
+- **Boundary layer temperature rise** around the nose and body
+- Gradual **conduction into aluminum, epoxy, and tungsten**
+- Layer-by-layer heat propagation through the solid core
+
+[🎬 Watch temp.mp4](temp.mp4)
 
 ---
 
