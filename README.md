@@ -73,6 +73,8 @@ To accurately simulate heating from Mach 4 to Mach 3.5, all materials were assig
 
 | Material   | Cp and k behavior up to ~1000–1200°C | Notes |
 |------------|--------------------------------------|-------|
+
+
 | **Steel**  | Both Cp and k increase moderately with temperature.  
 - Cp rises from ~450 to ~650 J/kg·K  
 - k decreases slightly, from ~50 to ~25 W/m·K at high temps  
