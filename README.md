@@ -52,11 +52,54 @@ while (currentTime < endTime) {
 
 ## 📊 Results
 
-- **1Dheat transfer.png**: 1D conduction into steel tip compared to analytical erf solution at 1 mm depth  
-- **Epoxy_Temp.png**: time-based temperature trace inside epoxy bond layer  
-- **Temps.png**: temperature field showing conduction from steel into aluminum, epoxy, and tungsten (with mesh overlay)  
-- **Temps2.png**: same view as above without mesh overlay — cleaner visual for presentation  
+## 🧪 1D Heat Transfer Validation
 
+To validate the solver accuracy, a simple **1D conduction case** was extracted at a depth of **1 mm** into the steel tip. This was compared against the analytical solution for semi-infinite conduction using the **error function (erf)** solution:
+
+\[
+T(x, t) = T_\infty + (T_s - T_\infty) \cdot \text{erf} \left( \frac{x}{2\sqrt{\alpha t}} \right)
+\]
+
+Where:
+- \( x = 1 \text{ mm} \)  
+- \( \alpha \) = thermal diffusivity of steel  
+- \( T_s \) = surface temperature  
+- \( T_\infty \) = initial steel temperature
+
+The plot below shows excellent agreement between the numerical simulation and the analytical curve:
+
+![1Dheat transfer](1Dheat%20transfer.png)
+## 🌡️ Epoxy Layer Temperature Over Time
+
+This plot shows the **temperature evolution** inside the **epoxy bonding layer** over the full 2-second simulation window. The data was extracted from a probe located near the mid-thickness of the epoxy region, at the nose-body interface between the steel tip and the aluminum outer shell.
+
+This temperature trace highlights:
+- Rapid heating in the first 0.2–0.4 seconds due to sharp temperature gradients
+- Gradual thermal response lagging behind steel and aluminum due to lower thermal conductivity
+- Long tail response as energy conducts inward toward the tungsten core
+
+![Epoxy_Temp](Epoxy_Temp.png)
+
+
+## 🔥 Full Temperature Field Visualization (With and Without Mesh)
+
+These visualizations show the **temperature field** across all solid materials at a representative moment during the simulation.
+
+### With Mesh Overlay
+The image below includes the **solid region mesh**, helping illustrate:
+- How conduction pathways evolve from the **steel tip inward**
+- Layered heat transfer behavior through **aluminum**, **epoxy**, and into the **tungsten core**
+- Mesh resolution and cell distribution in critical thermal gradient regions
+
+![Temps](Temps.png)
+
+### Without Mesh Overlay
+The same temperature field is shown below **without mesh lines** for a clearer, presentation-quality view of thermal distribution. This version highlights:
+- Temperature gradient smoothness
+- Thermal interfaces between materials
+- Direction of heat flow and dominant conduction regions
+
+![Temps2](Temps2.png)
 ---
 
 ## 📽️ Coming Soon
