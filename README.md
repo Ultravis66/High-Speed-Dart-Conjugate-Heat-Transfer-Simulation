@@ -5,7 +5,7 @@ This project models the **transient thermal response** of a multi-material, high
 
 ---
 
-## 📂 Geometry & Setup
+## Geometry & Setup
  
 - **Geometry source**: [30mm NATO APFSDS on GrabCAD](https://grabcad.com/library/30mm-nato-apfsds-1)  
 > Dimensions and material layering were modified based on open-source knowledge of subcaliber darts. This model is used purely for physics-based simulation and does not reflect proprietary or classified designs.
