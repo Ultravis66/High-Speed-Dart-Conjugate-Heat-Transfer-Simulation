@@ -89,7 +89,7 @@ To accurately simulate heating from Mach 4 to Mach 3.5, all materials were assig
 - Cp ~1100 to 1500 J/kg·K  
 - k remains < 0.3 W/m·K | Epoxy thermal behavior modeled only up to ~200°C to stay below decomposition threshold |
 
-### ⚙️ Modeling Notes
+### Modeling Notes
 - Properties were implemented using **STAR-CCM+’s temperature-dependent material functions**
 - Data sourced from public material databases and aerospace thermal reference data
 - Each material curve was truncated or extrapolated only within safe physical bounds
