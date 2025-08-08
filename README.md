@@ -12,7 +12,7 @@ This project models the **transient thermal response** of a multi-material, high
 
 ---
 
-## 📐 Full Geometry and Material Layout
+## Full Geometry and Material Layout
 
 ### Full Round Geometry
 The image below shows the entire geometry of the high-speed dart, including the **fins, sabot interface, and nose cone**. This model was created using open-source references and CAD estimation.
@@ -30,7 +30,7 @@ The nose cone geometry was not available in the source CAD and was constructed m
 
 ![Material Layout](Materials.png)
 
-## 🧪 Simulation Method
+## Simulation Method
 
 ### Quasi-Unsteady CHT Modeling
 
@@ -47,7 +47,7 @@ The nose cone geometry was not available in the source CAD and was constructed m
 
 ---
 
-### 🔄 Macro Overview (Excerpt)
+### Macro Overview (Excerpt)
 ```java
 while (currentTime < endTime) {
     fluidCont.setIsActive(true);    // fluid phase
@@ -62,11 +62,11 @@ while (currentTime < endTime) {
     currentTime = sim.getSolution().getPhysicalTime();
 }
 ```
-## 📊 Temperature-Dependent Material Properties
+## Temperature-Dependent Material Properties
 
 To accurately simulate heating from Mach 4 to Mach 3.5, all materials were assigned **temperature-dependent thermal properties**, including:
 
-### 🔥 Specific Heat Capacity (Cp) and Thermal Conductivity (k)
+### Specific Heat Capacity (Cp) and Thermal Conductivity (k)
 
 | Material   | Cp and k behavior up to ~1000–1200°C | Notes |
 |------------|--------------------------------------|-------|
@@ -96,9 +96,9 @@ To accurately simulate heating from Mach 4 to Mach 3.5, all materials were assig
 
 ---
 
-## 📊 Results
+## Results
 
-## 🧪 1D Heat Transfer Validation
+## 1D Heat Transfer Validation
 
 To validate the solver accuracy, a simple **1D conduction case** was extracted at a depth of **1 mm** into the steel tip. This was compared against the analytical solution for semi-infinite conduction using the **error function (erf)** solution:
 
@@ -107,14 +107,14 @@ To validate the solver accuracy, a simple **1D conduction case** was extracted a
 The plot below shows excellent agreement between the numerical simulation and the analytical curve:
 
 ![1Dheat transfer](1Dheat%20transfer.png)
-## 🌡️ Epoxy Layer Temperature Over Time
+## Epoxy Layer Temperature Over Time
 
 This plot shows the max **temperature evolution** inside the **epoxy bonding layer** over the full 2-second simulation window. Epoxy starts to degrade rapidly beyond 475°K
 
 ![Epoxy_Temp](Epoxy_Temp.png)
 
 
-## 🔥 Full Temperature Field Visualization (With and Without Mesh)
+## Full Temperature Field Visualization (With and Without Mesh)
 
 These visualizations show the **temperature field** across solid materials at 2 seconds flight time away from the stagnation.
 
@@ -133,7 +133,7 @@ The same temperature field is shown below **without mesh lines** for a clearer, 
 ![Temps2](Temps2.png)
 ---
 
-## 📽️ Temperature Evolution (2-Second Transient)
+## Temperature Evolution (2-Second Transient)
 
 This video visualizes the **conjugate heat transfer behavior** of the dart geometry over a full **2-second flight window**, during which the Mach number decays from 4.0 to 3.5. The animation shows:
 
